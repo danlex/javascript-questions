@@ -6,7 +6,7 @@ This file contains a number of front-end javascript interview questions.
 
   1. [Contributors](#contributors)
   1. [How to Contribute](https://github.com/danlex/javascript-questions/edit/master/CONTRIBUTING.md)
-  1. [License](https://github.com/danlex/javascript-questions/edit/master/LICENSE.md)
+  1. [License](https://github.com/danlex/javascript-questions/edit/master/LICENSE)
 
 ## Javascript Questions
 Question1. Consider the two functions below. Will they both return the same thing? Why or why not?
