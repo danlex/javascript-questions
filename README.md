@@ -55,3 +55,5 @@ console.log(0.1 + 0.2 == 0.3);
 0.30000000000000004
 false
 ```
+## Contributors:
+This document started in 2017 as a collaboration of [@dan_lex]
