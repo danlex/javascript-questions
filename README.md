@@ -8,8 +8,10 @@ This file contains a number of front-end javascript interview questions.
   1. [How to Contribute](https://github.com/danlex/javascript-questions/edit/master/CONTRIBUTING.md)
   1. [License](https://github.com/danlex/javascript-questions/blob/master/LICENSE)
 
-## Javascript Questions
-**Question1.** Consider the two functions below. Will they both return the same thing? Why or why not?
+## Questions
+#### Question1. 
+
+**Consider the two functions below. Will they both return the same thing? Why or why not?**
 
 ```javascript
 function foo1()
@@ -41,7 +43,9 @@ foo2 returns:
 Undefined
 ```
 
-**Question2.** What will the code below output? Explain your answer.
+#### Question2. 
+**What will the code below output? Explain your answer**
+
 ```javascript
 console.log(0.1 + 0.2);
 console.log(0.1 + 0.2 == 0.3);
