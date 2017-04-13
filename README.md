@@ -50,10 +50,31 @@ Undefined
 console.log(0.1 + 0.2);
 console.log(0.1 + 0.2 == 0.3);
 ```
+
 **Answer:**
 ```javascript
 0.30000000000000004
 false
 ```
+#### Question3.
+**In what order will the numbers 1-4 be logged to the console when the code below is executed? Why?**
+
+```javascript
+(function() {
+   console.log(1); 
+   setTimeout(function(){console.log(2)}, 1000); 
+   setTimeout(function(){console.log(3)}, 0); 
+   console.log(4);
+})();
+```
+ 
+**Answer:**
+```javascript
+1
+4
+3
+2
+```
+
 ## Contributors:
 This document started in 2017 as a contribution of [@danlex].
