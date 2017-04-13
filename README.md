@@ -2,11 +2,16 @@
 
 This file contains a number of front-end javascript interview questions.
 
-## Getting Involved
+## Table of Contents
+1. [Questions](#questions)
+ * [Question1: Consider the two functions below. Will they both return the same thing? Why or why not?](#question1)
+ * [Question2: What will the code below output of adding 2 decimal numbers?](#question2)
+ * [Question3: In what order will the numbers 1-4 be logged to the console when the code below is executed?](#question3)
 
-  1. [Contributors](#contributors)
-  1. [How to Contribute](https://github.com/danlex/javascript-questions/edit/master/CONTRIBUTING.md)
-  1. [License](https://github.com/danlex/javascript-questions/blob/master/LICENSE)
+2. Getting Involved
+ * [Contributors](#contributors)
+ * [How to Contribute](https://github.com/danlex/javascript-questions/edit/master/CONTRIBUTING.md)
+ * [License](https://github.com/danlex/javascript-questions/blob/master/LICENSE)
 
 ## Questions
 #### Question1. 
@@ -44,7 +49,7 @@ Undefined
 ```
 
 #### Question2. 
-**What will the code below output? Explain your answer**
+**What will the code below output of adding 2 decimal numbers? Explain your answer**
 
 ```javascript
 console.log(0.1 + 0.2);
@@ -75,6 +80,11 @@ false
 3
 2
 ```
+## Getting Involved
 
-## Contributors:
+  1. [Contributors](#contributors)
+  2. [How to Contribute](https://github.com/danlex/javascript-questions/edit/master/CONTRIBUTING.md)
+  3. [License](https://github.com/danlex/javascript-questions/blob/master/LICENSE)
+  
+### Contributors:
 This document started in 2017 as a contribution of [@danlex].
