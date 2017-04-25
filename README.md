@@ -225,6 +225,23 @@ An arrow function expression has a shorter syntax than a function expression and
 ```javascript
 (param1, param2, …, paramN) => { statements }
 ```
+The other benefit of using arrow functions with promises/callbacks is that it reduces the confusion surrounding the this keyword. In code with multiple nested functions, it can be difficult to keep track of and remember to bind the correct this context. In ES5, you can use workarounds like the .bind method (which is slow) or creating a closure using var self = this;.
+Because arrow functions allow you to retain the scope of the caller inside the function, you don’t need to create self = this closures or use bind.
+
+As was mentioned previously, the this keyword works differently in arrow functions. The methods call(), apply(), and bind() will not change the value of this in arrow functions. (In fact, the value of this inside of a function simply can’t be changed–it will be the same value as when the function was called.) If you need to bind to a different value, you’ll need to use a function expression.
+
+Arrow functions cannot be used as constructors as other functions can.
+
+Arrow functions do not have the local variable arguments as do other functions. 
+
+Where to use arrow functions:
+
+Use function in the global scope and for Object.prototype properties.
+
+Use class for object constructors.
+
+Use => everywhere else
+
 #### Question11. 
 **What is lambda function?**
 
