@@ -15,6 +15,8 @@ This file contains a number of front-end javascript interview questions.
  * [Question9: Delete can delete but](#question9)
  * [Question10: What is arrow function?](#question10)
  * [Question11: What is lambda function?](#question11)
+ * [Question12: What are JavaScript types?](#question12)
+ 
 2. Getting Involved
  * [Contributors](#contributors)
  * [How to Contribute](https://github.com/danlex/javascript-questions/edit/master/CONTRIBUTING.md)
@@ -259,6 +261,20 @@ compare = function(a,b){
  return a.length-b.length;
 }
 list.sort(compare);
+```
+#### Question12. 
+**What are JavaScript types?**
+**Answer:**
+
+Following are the JavaScript types:
+```javascript
+Number
+String
+Boolean
+Function
+Object
+Null
+Undefined
 ```
 
 ## Getting Involved
